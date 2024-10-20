@@ -1,0 +1,84 @@
+.hero{
+    margin: 0px 120px;
+    margin-top: 150px;
+}
+.hero-data{
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-explore{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #fff;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    margin-top: 70px;
+    cursor: pointer;
+    width: fit-content;
+}
+.hero-explore img{
+    width: 47px;
+    height: 47px;
+}
+.hero-explore p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #292929;
+}
+
+.hero-dot-play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-dots{
+    margin-top: 12px;
+    padding-left: 50px;
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.hero-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+.hero-dot:hover{
+    transform : scale(2);
+}
+.orange{
+    background-color: orangered;
+}
+.play-icon{
+    width: 1px;
+    height: 1px;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-play p{
+    font-size: 20px;
+    color: #fff;
+}
+.hero-play img{
+    cursor:pointer;
+}
+
+@keyframes fadeIn {
+    form{opacity:0}
+    to{opacity:1}
+}
+
+.fade-in{
+    animation:fadeIn 500ms ease-in-out;
+}

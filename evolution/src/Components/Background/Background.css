@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    padding: none;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+    float: left;
+    position: fixed;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.fade-in{
+    animation: fadeInAnimation 5000ms ease-in-out;
+}
