@@ -1,3 +1,8 @@
-clone the repo in your machine
-run npm install  to install the dependencies
-run npm run dev to run the app
+## Installation
+1. Clone the repo
+2. cd  your-repo
+3. ```bash
+   npm install
+
+4. ```bash
+   npm run dev
